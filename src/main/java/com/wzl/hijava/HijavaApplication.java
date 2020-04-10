@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class HijavaApplication {
 
     public static void main(String[] args) {
-        System.out.println("Hello Spring Boot");
         SpringApplication.run(HijavaApplication.class, args);
+        System.out.println("启动完毕！");
     }
 
 }
